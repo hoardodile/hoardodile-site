@@ -1,0 +1,16 @@
+# dependencies
+node_modules
+
+# next
+.next
+out
+
+# generated at build time by scripts/fetch-release.mjs
+lib/release.generated.ts
+
+# demo screenshot generation
+tmp-shots
+screenshots-src
+
+# logs
+*.log

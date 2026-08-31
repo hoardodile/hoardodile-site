@@ -1,0 +1,5 @@
+allowBuilds:
+  sharp: true
+minimumReleaseAgeExclude:
+  - '@hoardodile/i18n@0.1.6'
+  - '@hoardodile/ui@0.1.6'

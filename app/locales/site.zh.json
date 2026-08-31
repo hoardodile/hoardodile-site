@@ -1,0 +1,156 @@
+{
+	"brand": "Hoardodile",
+	"nav": {
+		"product": "产品",
+		"plugins": "插件",
+		"privacy": "隐私",
+		"docs": "文档",
+		"screenshots": "截图",
+		"faq": "常见问题"
+	},
+	"hero": {
+		"eyebrow": "自托管归档",
+		"marketplace": "市场",
+		"title": "一个放在你自己存储上的自托管存储库。",
+		"subtitle": "图片、文档、PDF、视频、音频、网页、压缩包、漫画、小说与2D骨架动画——集中收藏，就地预览，并保存在你自己的磁盘上。"
+	},
+	"why": {
+		"text": "收藏很容易，留住才难——尤其是当文件以各种格式涌来，而它们的价值在于多年后仍然拥有。"
+	},
+	"cap": {
+		"h1": "收藏任何内容",
+		"b1": "内容插件负责判断一个文件是什么并怎样渲染。新增格式无需改动核心。",
+		"chip1": "可扩展",
+		"h2": "就地预览",
+		"b2": "在它所在的位置打开资源——PDF 阅读器、媒体查看器、文件树、漫画阅读器。",
+		"chip2": "就地",
+		"h3": "再次找到它",
+		"b3": "标签、集合与分类、全文搜索，以及重复检测——精确与感知。",
+		"chip3": "搜索 · 去重",
+		"h4": "安全保存",
+		"b4": "版本化归档与自动快照，让存储库能逐年可用，而不是数月。",
+		"chip4": "版本 · 快照",
+		"h5": "只属于你",
+		"b5": "自托管、本地优先、无遥测。出站请求只在你主动发起时发生。",
+		"chip5": "无遥测"
+	},
+	"plugins": {
+		"eyebrow": "内容插件",
+		"title": "永不碰壁。",
+		"body": "内容插件负责识别、描述并渲染一个资源。无需改动核心，就能从市场安装更多。",
+		"step1t": "识别",
+		"step1b": "内容插件说出一个资源是什么——依据它的字节，而不只是文件名。",
+		"step2t": "描述",
+		"step2b": "它报告尺寸、时长、页数、搜索维度与封面。",
+		"step3t": "渲染",
+		"step3b": "它在存储库中绘制这个资源——查看器、阅读器、文件树。",
+		"builtIn": "内置",
+		"marketplace": "市场",
+		"more": "更多插件",
+		"fileName": "file",
+		"galleryName": "gallery",
+		"pdfName": "pdf",
+		"mangaName": "manga / comic",
+		"animName": "2D骨架动画",
+		"novelName": "novel",
+		"fileDesc": "任意文件的文件树",
+		"galleryDesc": "图片、视频与音频",
+		"pdfDesc": "PDF 文档",
+		"mangaDesc": "漫画与图像小说",
+		"animDesc": "2D 骨架动画——Live2D、Spine、DragonBones",
+		"novelDesc": "小说与电子书",
+		"writeOwn": "用插件 SDK 与 CLI 自己编写，再发布到市场。"
+	},
+	"privacy": {
+		"eyebrow": "隐私与控制",
+		"title": "你的存储库，你的规则。",
+		"body": "数据留在你的存储上。唯一的出站请求是你自己发起的。",
+		"p1t": "无遥测",
+		"p1b": "除非你主动或同意，否则没有任何东西离开你的主机。",
+		"p2t": "拥有存储",
+		"p2b": "一个普通的 SQLite 数据库，加上一个你可以备份与迁移的文件夹树。",
+		"p3t": "经同意的下载",
+		"p3b": "插件资源与市场更新只从 GitHub 抓取，且插件下载需要你的许可。"
+	},
+	"deploy": {
+		"eyebrow": "想在哪运行就在哪运行",
+		"title": "自托管、Docker，或桌面端。",
+		"body": "桌面应用与自托管网页版共用同一种存储库格式。",
+		"self_t": "自托管",
+		"self_b": "Node 24 与 pnpm。运行服务端，再用浏览器打开。",
+		"dock_t": "Docker",
+		"dock_b": "一条 compose 命令。你的存储库生活在一个命名卷里。",
+		"desk_t": "桌面端",
+		"desk_b": "Windows、macOS 与 Linux 安装包，带自动更新。"
+	},
+	"cta": {
+		"eyebrow": "开始使用",
+		"title": "下载它、用 Docker 运行，或自行构建。"
+	},
+	"footer": {
+		"tagline": "自托管归档，收藏你拥有的一切。",
+		"product": "产品",
+		"community": "社区",
+		"license": "以 GPL-3.0 授权。"
+	},
+	"lang": {
+		"english": "English",
+		"chinese": "中文"
+	},
+	"download": {
+		"button": "下载",
+		"buttonVersion": "下载 v{{version}}",
+		"eyebrow": "下载",
+		"title": "获取 Hoardodile v{{version}}",
+		"subtitle": "选择你的平台。下载后数据保存在你自己的存储上。",
+		"windows": "Windows",
+		"macos": "macOS",
+		"linux": "Linux",
+		"installer": "下载安装包",
+		"portableZip": "便携版 zip",
+		"detected": "已检测",
+		"notSureTitle": "不确定用哪个？",
+		"notSureBody": "在上方选择你的平台，或查看全部版本。",
+		"viewRelease": "查看全部版本",
+		"selfHostNote": "或者自己运行——Node 24，或 Docker。"
+	},
+	"screenshots": {
+		"eyebrow": "演示",
+		"title": "应用内截图",
+		"body": "来自桌面应用的一组截图。点击任意图片可放大查看。",
+		"note": "截图为演示库示例。",
+		"altOverview": "总览仪表盘",
+		"altResources": "资源库",
+		"altResource": "资源详情",
+		"altCharacter": "人物详情",
+		"altDocuments": "文档编辑器",
+		"altSearch": "搜索"
+	},
+	"faq": {
+		"eyebrow": "常见问题",
+		"title": "常见问题。",
+		"q1": "Hoardodile 免费吗？",
+		"a1": "免费。Hoardodile 以 GPL-3.0 开源授权。",
+		"q2": "我的数据存在哪里？",
+		"a2": "存在你自己的存储上，无需云端、账号或服务。",
+		"q3": "能存什么？",
+		"a3": "只要是内容插件能识别的——图片、PDF、视频、音频、漫画、小说、压缩包等等。",
+		"q4": "如何支持新格式？",
+		"a4": "从市场安装内容插件，或用插件 SDK 自己编写。",
+		"q5": "桌面端还是网页版？",
+		"a5": "两者都可以，且共用同一种资料库格式。",
+		"q6": "会上传数据吗？",
+		"a6": "无遥测。唯一的出站请求是你自己发起的。"
+	},
+	"community": {
+		"eyebrow": "开源",
+		"title": "开放构建。",
+		"body": "Hoardodile 以 GPL-3.0 开源授权。欢迎通过 GitHub 提交 bug 与想法。"
+	},
+	"notFound": {
+		"eyebrow": "404",
+		"title": "页面不存在。",
+		"body": "你要找的页面不存在。",
+		"home": "返回首页"
+	}
+}

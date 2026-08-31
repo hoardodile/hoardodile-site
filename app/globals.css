@@ -1,0 +1,31 @@
+@import "@hoardodile/ui/theme.css";
+
+/* Scan the whole site source for Tailwind utilities (the imported theme.css
+   only scans the ui package itself). */
+@source "../**/*.{ts,tsx}";
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+		@apply bg-background text-foreground;
+	}
+
+	body {
+		@apply bg-background text-foreground antialiased;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		html {
+			scroll-behavior: auto;
+		}
+
+		*,
+		*::before,
+		*::after {
+			animation-duration: 0.01ms !important;
+			animation-iteration-count: 1 !important;
+			transition-duration: 0.01ms !important;
+			scroll-behavior: auto !important;
+		}
+	}
+}

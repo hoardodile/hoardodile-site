@@ -1,0 +1,156 @@
+{
+	"brand": "Hoardodile",
+	"nav": {
+		"product": "Product",
+		"plugins": "Plugins",
+		"privacy": "Privacy",
+		"docs": "Docs",
+		"screenshots": "Screenshots",
+		"faq": "FAQ"
+	},
+	"hero": {
+		"eyebrow": "Self-hosted archive",
+		"marketplace": "Marketplace",
+		"title": "A self-hosted library for the things you keep.",
+		"subtitle": "Images, documents, PDFs, video, audio, web pages, archives, comics, novels, and 2D skeleton animation — collected in one place, previewed where they are, and kept on your own storage."
+	},
+	"why": {
+		"text": "Collecting is easy. Keeping is the hard part — especially when files arrive in every format, and the value of them is in still having them years later."
+	},
+	"cap": {
+		"h1": "Hoard any content",
+		"b1": "Content plugins decide what a file is and how it renders. New formats can be added without touching the core.",
+		"chip1": "extensible",
+		"h2": "Preview in place",
+		"b2": "Open a resource where it is — a PDF reader, a media viewer, a file tree, a comic reader.",
+		"chip2": "in place",
+		"h3": "Find it again",
+		"b3": "Tags, collections and categories, full-text search, and duplicate detection — exact and perceptual.",
+		"chip3": "search · dedup",
+		"h4": "Keep it safe",
+		"b4": "Versioned archives and automatic snapshots keep a library usable over years, not months.",
+		"chip4": "versions · snapshots",
+		"h5": "Yours alone",
+		"b5": "Self-hosted, local-first, no telemetry. Outbound requests happen only when you start them.",
+		"chip5": "no telemetry"
+	},
+	"plugins": {
+		"eyebrow": "Content plugins",
+		"title": "Never hits a wall.",
+		"body": "Content plugins claim, describe and render a resource. Install more from the marketplace without changing the core.",
+		"step1t": "Detect",
+		"step1b": "A content plugin says what a resource is — from its bytes, not just its filename.",
+		"step2t": "Describe",
+		"step2b": "It reports dimensions, duration, page count, search facets and a cover.",
+		"step3t": "Render",
+		"step3b": "It draws the resource in the library — a viewer, a reader, a file tree.",
+		"builtIn": "Built in",
+		"marketplace": "Marketplace",
+		"more": "More in the marketplace",
+		"fileName": "file",
+		"galleryName": "gallery",
+		"pdfName": "pdf",
+		"mangaName": "manga / comic",
+		"animName": "2D skeleton animation",
+		"novelName": "novel",
+		"fileDesc": "A file tree for anything",
+		"galleryDesc": "Images, video and audio",
+		"pdfDesc": "PDF documents",
+		"mangaDesc": "Comics and manga",
+		"animDesc": "2D skeleton animation — Live2D, Spine, DragonBones",
+		"novelDesc": "Novels and e-books",
+		"writeOwn": "Write your own with the plugin SDK and CLI, then publish it to the marketplace."
+	},
+	"privacy": {
+		"eyebrow": "Privacy & control",
+		"title": "Your library, your rules.",
+		"body": "Data stays on your storage. The only outbound requests are the ones you start yourself.",
+		"p1t": "No telemetry",
+		"p1b": "Nothing leaves your host unless you do it, or approve it.",
+		"p2t": "Own the storage",
+		"p2b": "A plain SQLite database plus a folder tree that you can back up and move.",
+		"p3t": "Consented downloads",
+		"p3b": "Plugin assets and marketplace updates fetch GitHub only, and plugin downloads need your approval."
+	},
+	"deploy": {
+		"eyebrow": "Run it where you like",
+		"title": "Self-hosted, Docker, or desktop.",
+		"body": "The desktop app and the self-hosted web version share the same library format.",
+		"self_t": "Self-host",
+		"self_b": "Node 24 and pnpm. Run the server and open it in a browser.",
+		"dock_t": "Docker",
+		"dock_b": "A single compose command. Your library lives in a named volume.",
+		"desk_t": "Desktop",
+		"desk_b": "Installers for Windows, macOS and Linux, with an auto-updater."
+	},
+	"cta": {
+		"eyebrow": "Get started",
+		"title": "Download it, run it in Docker, or build it yourself."
+	},
+	"footer": {
+		"tagline": "A self-hosted archive for everything you keep.",
+		"product": "Product",
+		"community": "Community",
+		"license": "Licensed under GPL-3.0."
+	},
+	"lang": {
+		"english": "English",
+		"chinese": "中文"
+	},
+	"download": {
+		"button": "Download",
+		"buttonVersion": "Download v{{version}}",
+		"eyebrow": "Download",
+		"title": "Get Hoardodile v{{version}}",
+		"subtitle": "Pick your platform. Downloads install to your own storage.",
+		"windows": "Windows",
+		"macos": "macOS",
+		"linux": "Linux",
+		"installer": "Download installer",
+		"portableZip": "Portable zip",
+		"detected": "Detected",
+		"notSureTitle": "Not sure which?",
+		"notSureBody": "Choose your platform above, or view all releases.",
+		"viewRelease": "View all releases",
+		"selfHostNote": "Or run it yourself — Node 24, or Docker."
+	},
+	"screenshots": {
+		"eyebrow": "Demo",
+		"title": "In-app screenshots.",
+		"body": "A few screenshots from the desktop app. Click any image to enlarge.",
+		"note": "Screenshots show a demo library.",
+		"altOverview": "Overview dashboard",
+		"altResources": "Resources library",
+		"altResource": "Resource detail",
+		"altCharacter": "Character detail",
+		"altDocuments": "Document editor",
+		"altSearch": "Search"
+	},
+	"faq": {
+		"eyebrow": "FAQ",
+		"title": "Common questions.",
+		"q1": "Is Hoardodile free?",
+		"a1": "Yes. Hoardodile is free and open source under GPL-3.0.",
+		"q2": "Where is my data stored?",
+		"a2": "On your own storage. There is no required cloud, account or service.",
+		"q3": "What can I keep?",
+		"a3": "Anything a content plugin understands — images, PDFs, video, audio, comics, novels, archives and more.",
+		"q4": "How do I add a format?",
+		"a4": "Install a content plugin from the marketplace, or write one with the plugin SDK.",
+		"q5": "Desktop or web?",
+		"a5": "Both, and they share the same library format.",
+		"q6": "Does it phone home?",
+		"a6": "No telemetry. The only outbound requests are the ones you trigger yourself."
+	},
+	"community": {
+		"eyebrow": "Open source",
+		"title": "Built in the open.",
+		"body": "Hoardodile is free and open source under GPL-3.0. Report bugs and share ideas on GitHub."
+	},
+	"notFound": {
+		"eyebrow": "404",
+		"title": "Page not found.",
+		"body": "The page you're looking for doesn't exist.",
+		"home": "Go home"
+	}
+}
