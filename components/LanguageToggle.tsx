@@ -3,6 +3,7 @@
 import { useTranslation } from "react-i18next"
 import { useRouter } from "next/navigation"
 import { cn } from "@hoardodile/ui/lib/utils"
+import { storeLanguage } from "@/lib/locale"
 import type { SiteLang } from "@/lib/i18n"
 
 export function LanguageToggle({ className }: { className?: string }) {
@@ -13,6 +14,9 @@ export function LanguageToggle({ className }: { className?: string }) {
 	const target = current === "en" ? "/zh/" : "/"
 
 	function toggle() {
+		// Remember the user's explicit choice so the auto-redirect (which only
+		// reads this key) doesn't bounce them back on the next visit.
+		storeLanguage(current === "en" ? "zh" : "en")
 		router.push(target)
 	}
 

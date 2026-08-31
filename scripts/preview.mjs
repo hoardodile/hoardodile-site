@@ -23,6 +23,7 @@ http
 	.createServer(async (req, res) => {
 		let p = decodeURIComponent(req.url.split("?")[0])
 		if (p === "/") p = "/index.html"
+		else if (p.endsWith("/")) p += "index.html"
 		const fp = join(root, p)
 		try {
 			const data = await readFile(fp)
