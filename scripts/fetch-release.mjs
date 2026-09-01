@@ -59,10 +59,10 @@ export const LATEST_VERSION = ${JSON.stringify(version)}
 export const RELEASE_PAGE = ${JSON.stringify(RELEASE_PAGE)}
 export const RELEASE_BASE = ${JSON.stringify(RELEASE_BASE)}
 export const ASSETS = {
-	winInstaller: \`\${RELEASE_BASE}/Hoardodile-Setup-\${LATEST_VERSION}-x64.exe\`,
-	winPortable: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-win-x64.zip\`,
-	macDmg: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-arm64.dmg\`,
-	linuxAppImage: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-x64.AppImage\`,
+	winInstaller: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-windows-x64-setup.exe\`,
+	winPortable: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-windows-x64.zip\`,
+	macDmg: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-macos-arm64.dmg\`,
+	linuxAppImage: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-linux-x64.AppImage\`,
 } as const
 `
 
