@@ -12,7 +12,7 @@
 		"eyebrow": "Self-hosted archive",
 		"marketplace": "Marketplace",
 		"title": "A self-hosted library for the things you keep.",
-		"subtitle": "Images, documents, PDFs, video, audio, web pages, archives, comics, novels, and 2D skeleton animation — collected in one place, previewed where they are, and kept on your own storage."
+		"subtitle": "Images, documents, PDFs, video, audio, web pages, archives, comics, novels, and 2D Skel — collected in one place, previewed where they are, and kept on your own storage."
 	},
 	"why": {
 		"text": "Collecting is easy. Keeping is the hard part — especially when files arrive in every format, and the value of them is in still having them years later."
@@ -51,13 +51,13 @@
 		"galleryName": "gallery",
 		"pdfName": "pdf",
 		"mangaName": "manga / comic",
-		"animName": "2D skeleton animation",
+		"animName": "2D Skel",
 		"novelName": "novel",
 		"fileDesc": "A file tree for anything",
 		"galleryDesc": "Images, video and audio",
 		"pdfDesc": "PDF documents",
 		"mangaDesc": "Comics and manga",
-		"animDesc": "2D skeleton animation — Live2D, Spine, DragonBones",
+		"animDesc": "2D Skel — Live2D, Spine, DragonBones",
 		"novelDesc": "Novels and e-books",
 		"writeOwn": "Write your own with the plugin SDK and CLI, then publish it to the marketplace."
 	},

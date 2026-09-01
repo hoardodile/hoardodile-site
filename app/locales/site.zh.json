@@ -12,7 +12,7 @@
 		"eyebrow": "自托管归档",
 		"marketplace": "市场",
 		"title": "一个放在你自己存储上的自托管存储库。",
-		"subtitle": "图片、文档、PDF、视频、音频、网页、压缩包、漫画、小说与2D骨架动画——集中收藏，就地预览，并保存在你自己的磁盘上。"
+		"subtitle": "图片、文档、PDF、视频、音频、网页、压缩包、漫画、小说与2D骨骼——集中收藏，就地预览，并保存在你自己的磁盘上。"
 	},
 	"why": {
 		"text": "收藏很容易，留住才难——尤其是当文件以各种格式涌来，而它们的价值在于多年后仍然拥有。"
@@ -51,13 +51,13 @@
 		"galleryName": "gallery",
 		"pdfName": "pdf",
 		"mangaName": "manga / comic",
-		"animName": "2D骨架动画",
+		"animName": "2D骨骼",
 		"novelName": "novel",
 		"fileDesc": "任意文件的文件树",
 		"galleryDesc": "图片、视频与音频",
 		"pdfDesc": "PDF 文档",
 		"mangaDesc": "漫画与图像小说",
-		"animDesc": "2D 骨架动画——Live2D、Spine、DragonBones",
+		"animDesc": "2D 骨骼——Live2D、Spine、DragonBones",
 		"novelDesc": "小说与电子书",
 		"writeOwn": "用插件 SDK 与 CLI 自己编写，再发布到市场。"
 	},
