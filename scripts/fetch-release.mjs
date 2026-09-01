@@ -62,7 +62,7 @@ export const ASSETS = {
 	winInstaller: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-windows-x64-setup.exe\`,
 	winPortable: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-windows-x64.zip\`,
 	macDmg: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-macos-arm64.dmg\`,
-	linuxAppImage: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-linux-x64.AppImage\`,
+	linuxAppImage: \`\${RELEASE_BASE}/Hoardodile-\${LATEST_VERSION}-linux-x86_64.AppImage\`,
 } as const
 `
 
