@@ -11,7 +11,7 @@
 	"hero": {
 		"eyebrow": "Self-hosted archive",
 		"marketplace": "Marketplace",
-		"title": "A self-hosted library for the things you keep.",
+		"title": "A versioned library for the things you keep.",
 		"subtitle": "Images, documents, PDFs, video, audio, web pages, archives, comics, novels, and 2D Skel — collected in one place, previewed where they are, and kept on your own storage."
 	},
 	"why": {
@@ -27,12 +27,23 @@
 		"h3": "Find it again",
 		"b3": "Tags, collections and categories, full-text search, and duplicate detection — exact and perceptual.",
 		"chip3": "search · dedup",
-		"h4": "Keep it safe",
-		"b4": "Versioned archives and automatic snapshots keep a library usable over years, not months.",
+		"h4": "Every state, versioned",
+		"b4": "Freeze any state read-only, keep adding and deleting in the latest version, and jump back to any version to view it. Automatic snapshots keep a rolling safety net.",
 		"chip4": "versions · snapshots",
 		"h5": "Yours alone",
 		"b5": "Self-hosted, local-first, no telemetry. Outbound requests happen only when you start them.",
 		"chip5": "no telemetry"
+	},
+	"versioning": {
+		"eyebrow": "Versioned by design",
+		"title": "Every state of your library, kept.",
+		"body": "Hoardodile is versioned software — the whole library goes into versioning. When you archive a state, it freezes as a read-only version; the latest version stays writable, so you keep adding, deleting and editing as usual. Jump back to any version at any time to view it, then return to the latest to carry on.",
+		"p1t": "The whole library, versioned",
+		"p1b": "An archive freezes that moment's database and every resource, character and document — nothing about the past can change afterwards.",
+		"p2t": "Frozen, not blocking",
+		"p2b": "Archived versions are read-only, so they never get in the way: keep adding, deleting and editing in the latest version, which always stays writable.",
+		"p3t": "Jump back to any version",
+		"p3b": "Switch to any archived version and view it exactly as it was. Return to the latest version to edit again — the history stays intact."
 	},
 	"plugins": {
 		"eyebrow": "Content plugins",
@@ -140,7 +151,9 @@
 		"q5": "Desktop or web?",
 		"a5": "Both, and they share the same library format.",
 		"q6": "Does it phone home?",
-		"a6": "No telemetry. The only outbound requests are the ones you trigger yourself."
+		"a6": "No telemetry. The only outbound requests are the ones you trigger yourself.",
+		"q7": "Can I go back and view an earlier version?",
+		"a7": "Yes. Archiving freezes the whole library — database, resources, characters and documents — as a read-only version. Switch to any archived version to view it, then return to the latest to keep working."
 	},
 	"community": {
 		"eyebrow": "Open source",

@@ -10,6 +10,7 @@ import { SiteHeader } from "./SiteHeader"
 import { Hero } from "./Hero"
 import { WhySection } from "./WhySection"
 import { CapabilitiesSection } from "./CapabilitiesSection"
+import { VersioningSection } from "./VersioningSection"
 import { PluginsSection } from "./PluginsSection"
 import { PrivacySection } from "./PrivacySection"
 import { DeploymentSection } from "./DeploymentSection"
@@ -73,6 +74,7 @@ export function SitePage({ lang }: { lang: SiteLang }) {
 					<Hero />
 					<WhySection />
 					<CapabilitiesSection />
+					<VersioningSection />
 					<ScreenshotsSection />
 					<PluginsSection />
 					<PrivacySection />
